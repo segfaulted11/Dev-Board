@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- tailwind & daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- css file  -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- navbar -->
+<nav class="w-10/12 bg-slate-500 mx-auto flex justify-between py-3 px-3 rounded-xl mt-5"> 
+
+        <div class="left flex gap-3 items-center">
+            <img src="./assets/logo.png" alt="">
+            <h2>Dev<b>Board</b></h2>
+        </div>
+
+        <div class="right flex items-center gap-5">
+            <button class="btn btn-soft rounded-full">
+                <img src="./assets/checkbox.png" alt="">
+                <p class="font-bold">23</p>
+            </button>
+            <button class="btn w-10 h-10 rounded-full">
+            skip    
+            </button>
+        </div>
+    
+</nav>
+
+<!-- section & aside -->
+
+<div class="sa-container flex justify-center gap-3 mt-3">
+
+<!-- section -->
+
+<section class="w-[57.5%] bg-slate-600 rounded-xl py-5 px-7">
+
+<!-- section-1 -->
+
+<div class="section-card-p1 flex gap-5 mb-10"> 
+
+<div class="section-card1 card w-40 bg-base-100 shadow-sm flex flex-row gap-3 justify-center items-center">
+
+    <img src="./assets/checkbox.png" alt="" class="w-6">
+
+    <div>
+    <p>Task Assign</p>
+    <h1><b>05</b></h1>
+    </div>
+
+</div>
+
+<div class="section-card2 card w-90 bg-stone-600 shadow-sm flex flex-row items-center gap-4">
+    <img src="./assets/board.png" alt="" class="w-17 h-17 ml-8">
+    <p class="text-yellow-50">Discover Something <br> New Today!</p>
+</div>
+
+<div class="section-card3 card w-40 bg-base-100 shadow-sm flex flex-row items-center justify-center gap-4">
+    <img src="./assets/calender.png" alt="" class="w-7 h-7">
+    <p class="text-black">Wed, <br> 19 Feb 2026</p>
+</div>
+
+</div>
+
+<!-- section-2 -->
+
+<div class="section-card-p2 grid grid-cols-3 gap-5"> 
+
+<div class="section-card1 card bg-base-100 shadow-sm p-5">
+   <button class="btn bg-soft w-[45%] mb-5">ShopEase</button>
+   <h1 class="text-[17px] mb-2"><b>Fix Mobile Button Issue</b></h1>
+   <p class="bg-slate-500 p-4 mb-4">Debug using Chrome DevTools, check for overlappin....</p>
+
+   <div class="flex justify-between">
+
+    <div>
+        <p class="text-gray-600">Deadline</p>
+        <h3 class="font-bold">21 March 2025</h3>
+    </div>
+
+    <button class="btn btn-primary">Completed</button>
+   </div>
+</div>
+
+<div class="section-card2 card bg-base-100 shadow-sm p-5">
+   <button class="btn bg-soft w-[45%] mb-5">CloudSync</button>
+   <h1 class="text-[17px] mb-2"><b>Add Dark Mode</b></h1>
+   <p class="bg-slate-500 p-4 mb-4">Store the user's preference in localStorage,....</p>
+
+   <div class="flex justify-between">
+
+    <div>
+        <p class="text-gray-600">Deadline</p>
+        <h3 class="font-bold">21 March 2025</h3>
+    </div>
+
+    <button class="btn btn-primary">Completed</button>
+   </div>
+</div>
+
+<div class="section-card3 card bg-base-100 shadow-sm p-5">
+   <button class="btn bg-soft w-[45%] mb-5">SwiftPay</button>
+   <h1 class="text-[17px] mb-2"><b>Optimize  Home page </b></h1>
+   <p class="bg-slate-500 p-4 mb-4">Debug using Chrome DevTools, check for overlappin....</p>
+
+   <div class="flex justify-between">
+
+    <div>
+        <p class="text-gray-600">Deadline</p>
+        <h3 class="font-bold">21 March 2025</h3>
+    </div>
+
+    <button class="btn btn-primary">Completed</button>
+   </div>
+</div>
+
+<div class="section-card4 card bg-base-100 shadow-sm p-5">
+   <button class="btn bg-soft w-[45%] mb-5">Meta</button>
+   <h1 class="text-[17px] mb-2"><b>Add New Emoji</b></h1>
+   <p class="bg-slate-500 p-4 mb-4">Debug using Chrome DevTools, check for overlappin....</p>
+
+   <div class="flex justify-between">
+
+    <div>
+        <p class="text-gray-600">Deadline</p>
+        <h3 class="font-bold">21 March 2025</h3>
+    </div>
+
+    <button class="btn btn-primary">Completed</button>
+   </div>
+</div>
+
+<div class="section-card5 card bg-base-100 shadow-sm p-5">
+   <button class="btn bg-soft w-[45%] mb-5">Google LLC</button>
+   <h1 class="text-[17px] mb-2"><b>Integrate OpenAI API</b></h1>
+   <p class="bg-slate-500 p-4 mb-4">Debug using Chrome DevTools, check for overlappin....</p>
+
+   <div class="flex justify-between">
+
+    <div>
+        <p class="text-gray-600">Deadline</p>
+        <h3 class="font-bold">21 March 2025</h3>
+    </div>
+
+    <button class="btn btn-primary">Completed</button>
+   </div>
+</div>
+
+<div class="section-card6 card bg-base-100 shadow-sm p-5">
+   <button class="btn bg-soft w-[45%] mb-5">Glassdoar</button>
+   <h1 class="text-[17px] mb-2"><b>Improve Job Searching</b></h1>
+   <p class="bg-slate-500 p-4 mb-4">Debug using Chrome DevTools, check for overlappin....</p>
+
+   <div class="flex justify-between">
+
+    <div>
+        <p class="text-gray-600">Deadline</p>
+        <h3 class="font-bold">21 March 2025</h3>
+    </div>
+
+    <button class="btn btn-primary">Completed</button>
+   </div>
+</div>
+
+
+</div>
+
+</section>
+
+<!-- aside -->
+
+<aside class="w-[25%] bg-slate-400 rounded-xl flex flex-col items-center gap-4">
+
+<div class="flex gap-2 mt-4">
+<img src="./assets/activity.png" alt="" srcset="">
+<p>Activity Log</p>
+</div>
+
+<button class="btn btn-primary w-[37%]">Clear History</button>
+</aside> 
+
+</div>
+
+
+</body>
+</html>
