@@ -249,3 +249,20 @@ let discoverSomething = document.getElementById("discoverSomething")
 discoverSomething.addEventListener("click",()=>{
   window.location.assign("./blog.html")
 })
+
+
+
+// *******challenge part
+
+// calender
+let calender = document.getElementById("calender")
+calender.innerHTML = `${new Date().toLocaleString()}`
+
+
+// all button disabled (couldnt do)
+// -----------------
+// -----------------
+// -----------------
+// -----------------
+
+// dynamic background (couldnt do)
