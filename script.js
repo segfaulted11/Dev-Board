@@ -1,4 +1,4 @@
-/* 
+/*
 
 // when the completed button is clicked ---
 i)it shows an alert sayin "board updated successfully"
@@ -8,7 +8,7 @@ iv) the button should get disabled
 v)a new content should be showed on the activity log sayin 'you have completed the task {xyz} at the current date.'
 
 
-// other tasks ---
+// other two tasks ---
 i) when the clear histry button is clicked it should clear all the contents
 ii) when the 'discover something' section is clicked it should take you to another page consisting the q/a. and that page should have the navbar and on the right side it should have a button called 'back to desk' that takes the user to the main page again.
 
@@ -232,4 +232,20 @@ glassdoarButton.addEventListener("click", () => {
 
 
 
+// *****other two tasks --->
 
+
+// clear history
+let clearHistory = document.getElementById("clear-history");
+clearHistory.addEventListener("click", () => {
+  let asideContainer = document.getElementById("aside-container");
+  asideContainer.innerText = "";
+});
+
+
+// discover something
+
+let discoverSomething = document.getElementById("discoverSomething")
+discoverSomething.addEventListener("click",()=>{
+  window.location.assign("./blog.html")
+})
