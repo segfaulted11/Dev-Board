@@ -29,8 +29,8 @@
 
         <div class="right flex items-center gap-5">
             <button class="btn btn-soft rounded-full">
-                <img src="./assets/checkbox.png" alt="">
-                <p class="font-bold">23</p>
+                <img src="./assets/checkbox.png" alt="" class="w-5">
+                <p class="font-bold" id="nav-number">23</p>
             </button>
             <button class="btn w-10 h-10 rounded-full">
             skip    
@@ -57,7 +57,7 @@
 
     <div>
     <p>Task Assign</p>
-    <h1><b>05</b></h1>
+    <h1 id="task-assign-number"><b>6</b></h1>
     </div>
 
 </div>
@@ -80,7 +80,7 @@
 
 <div class="section-card1 card bg-base-100 shadow-sm p-5">
    <button class="btn bg-soft w-[45%] mb-5">ShopEase</button>
-   <h1 class="text-[17px] mb-2"><b>Fix Mobile Button Issue</b></h1>
+   <h1 class="text-[17px] mb-2" id="shopEaseH1"><b>Fix Mobile Button Issue</b></h1>
    <p class="bg-slate-500 p-4 mb-4">Debug using Chrome DevTools, check for overlappin....</p>
 
    <div class="flex justify-between">
@@ -90,13 +90,13 @@
         <h3 class="font-bold">21 March 2025</h3>
     </div>
 
-    <button class="btn btn-primary">Completed</button>
+    <button class="btn btn-primary" id="shopEase">Completed</button>
    </div>
 </div>
 
 <div class="section-card2 card bg-base-100 shadow-sm p-5">
    <button class="btn bg-soft w-[45%] mb-5">CloudSync</button>
-   <h1 class="text-[17px] mb-2"><b>Add Dark Mode</b></h1>
+   <h1 class="text-[17px] mb-2" id="cloudSyncH1"><b>Add Dark Mode</b></h1>
    <p class="bg-slate-500 p-4 mb-4">Store the user's preference in localStorage,....</p>
 
    <div class="flex justify-between">
@@ -106,13 +106,13 @@
         <h3 class="font-bold">21 March 2025</h3>
     </div>
 
-    <button class="btn btn-primary">Completed</button>
+    <button class="btn btn-primary" id="cloudSync">Completed</button>
    </div>
 </div>
 
 <div class="section-card3 card bg-base-100 shadow-sm p-5">
    <button class="btn bg-soft w-[45%] mb-5">SwiftPay</button>
-   <h1 class="text-[17px] mb-2"><b>Optimize  Home page </b></h1>
+   <h1 class="text-[17px] mb-2" id="swiftPayH1"><b>Optimize Home page </b></h1>
    <p class="bg-slate-500 p-4 mb-4">Debug using Chrome DevTools, check for overlappin....</p>
 
    <div class="flex justify-between">
@@ -122,13 +122,13 @@
         <h3 class="font-bold">21 March 2025</h3>
     </div>
 
-    <button class="btn btn-primary">Completed</button>
+    <button class="btn btn-primary" id="swiftPay">Completed</button>
    </div>
 </div>
 
 <div class="section-card4 card bg-base-100 shadow-sm p-5">
    <button class="btn bg-soft w-[45%] mb-5">Meta</button>
-   <h1 class="text-[17px] mb-2"><b>Add New Emoji</b></h1>
+   <h1 class="text-[17px] mb-2" id="emojiH1"><b>Add New Emoji</b></h1>
    <p class="bg-slate-500 p-4 mb-4">Debug using Chrome DevTools, check for overlappin....</p>
 
    <div class="flex justify-between">
@@ -138,13 +138,13 @@
         <h3 class="font-bold">21 March 2025</h3>
     </div>
 
-    <button class="btn btn-primary">Completed</button>
+    <button class="btn btn-primary" id="emoji">Completed</button>
    </div>
 </div>
 
 <div class="section-card5 card bg-base-100 shadow-sm p-5">
    <button class="btn bg-soft w-[45%] mb-5">Google LLC</button>
-   <h1 class="text-[17px] mb-2"><b>Integrate OpenAI API</b></h1>
+   <h1 class="text-[17px] mb-2" id="googleH1"><b>Integrate OpenAI API</b></h1>
    <p class="bg-slate-500 p-4 mb-4">Debug using Chrome DevTools, check for overlappin....</p>
 
    <div class="flex justify-between">
@@ -154,13 +154,13 @@
         <h3 class="font-bold">21 March 2025</h3>
     </div>
 
-    <button class="btn btn-primary">Completed</button>
+    <button class="btn btn-primary" id="google">Completed</button>
    </div>
 </div>
 
 <div class="section-card6 card bg-base-100 shadow-sm p-5">
    <button class="btn bg-soft w-[45%] mb-5">Glassdoar</button>
-   <h1 class="text-[17px] mb-2"><b>Improve Job Searching</b></h1>
+   <h1 class="text-[17px] mb-2" id="glassDoarH1"><b>Improve Job Searching</b></h1>
    <p class="bg-slate-500 p-4 mb-4">Debug using Chrome DevTools, check for overlappin....</p>
 
    <div class="flex justify-between">
@@ -170,7 +170,7 @@
         <h3 class="font-bold">21 March 2025</h3>
     </div>
 
-    <button class="btn btn-primary">Completed</button>
+    <button class="btn btn-primary" id="glassDoar">Completed</button>
    </div>
 </div>
 
@@ -181,18 +181,24 @@
 
 <!-- aside -->
 
-<aside class="w-[25%] bg-slate-400 rounded-xl flex flex-col items-center gap-4">
+<aside class="w-[25%] bg-slate-400 rounded-xl flex flex-col items-center gap-4" id="aside">
 
 <div class="flex gap-2 mt-4">
 <img src="./assets/activity.png" alt="" srcset="">
 <p>Activity Log</p>
 </div>
 
-<button class="btn btn-primary w-[37%]">Clear History</button>
-</aside> 
+<button class="btn btn-primary w-[37%]" id="clear-history">Clear History</button>
+
+<div id="aside-container" class="bg-gray-100">
 
 </div>
 
 
+</aside> 
+
+</div>
+
+<script src="./script.js"></script>
 </body>
 </html>
